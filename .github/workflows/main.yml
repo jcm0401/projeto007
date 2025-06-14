@@ -1,6 +1,6 @@
 -- Cria o banco de dados se ele não existir e o seleciona
 CREATE DATABASE IF NOT EXISTS nome_do_seu_banco CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE nome_do_seu_banco;
+USE script_projeto.yml;
 
 -- Tabela: cliente
 CREATE TABLE IF NOT EXISTS cliente (
